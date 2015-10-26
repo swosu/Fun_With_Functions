@@ -1,4 +1,4 @@
-# Read Me File to start a program (This is what shows up bold):
+# Read Me File to start a program :
 	Example:  Fun_With_Functions_Project
 
 1. Start Eclipse
@@ -48,14 +48,14 @@ Initialized empty Git repository in E:/COMSC_1033_Workspace/Fun_With_Functions_P
 roject/.git/
 
 4. git add . to add my materials.
-E:\COMSC_1033_Workspace\Fun_With_Functions_Project>git add .
+E:\COMSC_1033_Workspace\Fun_With_Functions_Project>*git add .*
 
 5. git config our user name and email.
-E:\COMSC_1033_Workspace\Fun_With_Functions_Project>git config user.name "Jeremy
-Evert"
+E:\COMSC_1033_Workspace\Fun_With_Functions_Project>*git config user.name "Jeremy
+Evert"*
 
-E:\COMSC_1033_Workspace\Fun_With_Functions_Project>git config user.email "jeremy
-.evert@swosu.edu"
+E:\COMSC_1033_Workspace\Fun_With_Functions_Project>*git config user.email "jeremy
+.evert@swosu.edu"*
 
 6. Start a browser of choice.
 7. Go to Github: https://github.com/
@@ -74,33 +74,33 @@ So go back to the command prompt, and then do the first line, after pressing ent
 	do the second.
 
 // below is the first line. It works without problem.
-E:\COMSC_1033_Workspace\Fun_With_Functions_Project>git remote add origin https:/
-/github.com/jeremy-evert/Fun_With_Functions.git
+E:\COMSC_1033_Workspace\Fun_With_Functions_Project>*git remote add origin https:/
+/github.com/jeremy-evert/Fun_With_Functions.git*
 
 // below is the second line. note that it had problems.
-E:\COMSC_1033_Workspace\Fun_With_Functions_Project>git push -u origin master
+E:\COMSC_1033_Workspace\Fun_With_Functions_Project>*git push -u origin master*
 error: src refspec master does not match any.
 error: failed to push some refs to 'https://github.com/jeremy-evert/Fun_With_Fun
 ctions.git'
 
 
 // here we tried again, and it still was not happy.
-E:\COMSC_1033_Workspace\Fun_With_Functions_Project>git remote add origin https:/
-/github.com/jeremy-evert/Fun_With_Functions.git
+E:\COMSC_1033_Workspace\Fun_With_Functions_Project>*git remote add origin https:/
+/github.com/jeremy-evert/Fun_With_Functions.git*
 fatal: remote origin already exists.
 
 // Here we try again, and still not happy.
-E:\COMSC_1033_Workspace\Fun_With_Functions_Project>git push -u origin master
+E:\COMSC_1033_Workspace\Fun_With_Functions_Project>*git push -u origin master*
 error: src refspec master does not match any.
 error: failed to push some refs to 'https://github.com/jeremy-evert/Fun_With_Fun
 ctions.git'
 
 // but I wanted to test how unhappy this was, so I tried to keep moving.
-E:\COMSC_1033_Workspace\Fun_With_Functions_Project>git add .
+E:\COMSC_1033_Workspace\Fun_With_Functions_Project>*git add .*
 
 // So I just stayed after it. note that add and commit did not complain. 
 // these are for my local repository.
-E:\COMSC_1033_Workspace\Fun_With_Functions_Project>git commit -m "first commit"
+E:\COMSC_1033_Workspace\Fun_With_Functions_Project>*git commit -m "first commit"*
 [master (root-commit) 2bf56dd] first commit
  3 files changed, 79 insertions(+)
  create mode 100644 .classpath
@@ -108,7 +108,7 @@ E:\COMSC_1033_Workspace\Fun_With_Functions_Project>git commit -m "first commit"
  create mode 100644 Starting_A_New_Project_Instuctions.md
 
 // Now we try to git push again. We got a very useful message.
-E:\COMSC_1033_Workspace\Fun_With_Functions_Project>git push
+E:\COMSC_1033_Workspace\Fun_With_Functions_Project>*git push*
 warning: push.default is unset; its implicit value has changed in
 Git 2.0 from 'matching' to 'simple'. To squelch this message
 and maintain the traditional behavior, use:
@@ -136,8 +136,8 @@ To push the current branch and set the remote as upstream, use
     git push --set-upstream origin master
 
 // now we try the new command.
-E:\COMSC_1033_Workspace\Fun_With_Functions_Project>git push --set-upstream origi
-n master
+E:\COMSC_1033_Workspace\Fun_With_Functions_Project>*git push --set-upstream origi
+n master*
 Username for 'https://github.com': jeremy.evert@swosu.edu
 Password for 'https://jeremy.evert@swosu.edu@github.com':
 Counting objects: 5, done.
@@ -151,6 +151,8 @@ Branch master set up to track remote branch master from origin.
 
 // and all is well.
 E:\COMSC_1033_Workspace\Fun_With_Functions_Project>
+
+// now we push our changes to the remote.
 
 
 
