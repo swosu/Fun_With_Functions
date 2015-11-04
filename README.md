@@ -65,7 +65,7 @@ E:\COMSC_1033_Workspace\Fun_With_Functions_Project>*git config user.email "jerem
 		read me file. That initilization makes your life harder.
 	: Press "Create Repository"
 10. Follow the online instructions on how to 
-	…or push an existing repository from the command line
+	â€¦or push an existing repository from the command line
 
 : git remote add origin https://github.com/jeremy-evert/Fun_With_Functions.git
 : git push -u origin master
